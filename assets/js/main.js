@@ -8,10 +8,11 @@ $(function(){
     if($(this).val()== "C"){
       screenVal.val("");
     }
-  });
 
+  });
   $("button").click(function(event){
     event.preventDefault();
     screenVal.val(eval(screenVal.val()));
   });
+
 })
